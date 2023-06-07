@@ -70,13 +70,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     textAlign: "center",
     color: "#111322",
-    marginBottom: 40,
   },
   taskContainer: {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
     gap: 15,
+    marginTop: 40,
   },
   subHeadings: {
     fontWeight: 500,

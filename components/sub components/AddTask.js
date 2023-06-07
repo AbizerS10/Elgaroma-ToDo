@@ -50,7 +50,7 @@ const AddTask = () => {
   };
 
   return (
-    <View>
+    <View style={styles.root}>
       <TouchableOpacity
         style={styles.addTaskBtn}
         onPress={() => setAddTaskModal(true)}

@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "first-project",
-    "slug": "first-project",
+    "name": "ToDo-App",
+    "slug": "ToDo-App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/toDoIcon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/toDoIcon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/toDoIcon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abizers10.ToDoApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/toDoIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "998d1e1d-8c47-41d0-93e8-f9fed4b92378"
+      }
     }
   }
 }
